@@ -1,0 +1,55 @@
+<!--Murillo Marinho Santos SP3115526-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversão de Temperaturas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Item.7.4.1 -->
+    <div class="container">
+
+        <!--Item.7.4.2 -->
+        <h1>Taxa de Crescimento de populações</h1>
+
+        <!--Item.7.4.3 -->
+        <form id="formCalculo">
+
+            <!--Item.7.4.4 -->
+            <div class="inputs">
+
+                <!--Item.7.4.5 -->
+                <label for="popA">População do país A:</label>
+
+                <!--Item.7.4.6 -->
+                <input type="number" id="popA" placeholder="População do país A">
+
+                <!--Item.7.4.7 -->
+                <label for="taxaA">Taxa de Crescimento anual do país A(%):</label>
+
+                <!--Item.7.4.8 -->
+                <input type="number" id="taxaA" placeholder="Taxa de Crescimento do país A">
+
+                <!--Item.7.4.9 -->
+                <label for="popB">População do país B:</label>
+
+                <!--Item.7.4.10 -->
+                <input type="number" id="popB" placeholder="População do país B">
+
+                <!--Item.7.4.11 -->
+                <label for="taxaB">Taxa de Crescimento anual do país B(%):</label>
+
+                <!--Item.7.4.12 -->
+                <input type="number" id="taxaB" placeholder="Taxa de Crescimento do país B">
+            </div>
+
+            <button type="button" onclick="CalcularAnos()">Calcular</button>
+            <button type="button" onclick="LimparCampos()">Limpar</button>
+            <br><br><br>
+        </form>
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
